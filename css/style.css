@@ -1,1 +1,56 @@
-/* hello */
+/* font-family: 'Archivo Black', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.ld-logo {
+    height: 100%;
+}
+
+.navigation ul {
+    font-family: 'Archivo Black', sans-serif;
+    color: #555555;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    width: 200px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    width: 100%;
+    background-color: #999999;
+    /* padding: center; */
+}
+
+.footer ul {
+    font-family: 'Archivo Black', sans-serif;
+    color: #555555;
+    display: inline-block;
+    vertical-align: top;
+    /* padding: center; */
+}
