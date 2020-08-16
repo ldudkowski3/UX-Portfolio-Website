@@ -1,6 +1,8 @@
 /* font-family: 'Archivo Black', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
-
+body{
+    display: block;
+}
 .navigationBar {
     display: flex;
     align-items: start;
@@ -23,7 +25,6 @@ nav {
     width: auto;
     height: 60px;
     padding: 10px;
-    /* display: flex; */
     justify-content: left;
 }
 
@@ -37,6 +38,7 @@ nav ul li {
     padding-right: 10px;
     align-items: left;
     font-family: 'Archivo Black', sans-serif;
+    font-weight: 200;
     color: #505050;
 }
 
@@ -48,16 +50,26 @@ nav ul li {
     padding-bottom: 20px;
 }
 
-.contentWords {
+.content {
+    display: block;
+    width: 100%;
+}
+
+.contentLeft {
     display: inline-block;
-    width: 70%;
-    padding-top: 50px;
+    width: 65%;
+    /* margin-top: 50px; */
     padding-left: 64px;
     font-family: 'Roboto', sans-serif;
     color: #505050;
 }
 
-.heroImg {
+.paragraphText {
+    line-height: 1.5;
+
+}
+
+.contentRight {
     display: inline-block;
     width: 25%;
     padding: 10px;
@@ -65,13 +77,13 @@ nav ul li {
 
 .headshot{
     width: 100%;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     }
 
 footer {
     width: 100%;
     height: 50px;
-    background-color: #BBBBBB;
+    background-color: #EEEEEE;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -80,9 +92,7 @@ footer {
 footer ul {
     font-family: 'Archivo Black', sans-serif;
     color: #555555;
-    display: block;
     text-align: center;
-    /* padding-top: 10px; */
 }
 
 footer ul li {
