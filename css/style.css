@@ -1,56 +1,94 @@
 /* font-family: 'Archivo Black', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
 
+.navigationBar {
+    display: flex;
+    align-items: start;
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+.ld-logo {
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+}
+
 nav {
-    width: 73%;
-    padding: 1%;
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    /* display: flex; */
+    justify-content: left;
 }
 
 .inline-block {
     display: inline-block;
+}
+
+nav ul li {
     vertical-align: top;
-}
-
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
-
-.ld-logo {
-    height: 100%;
-}
-
-.navigation ul {
-    font-family: 'Archivo Black', sans-serif;
-    color: #555555;
     padding-left: 10px;
     padding-right: 10px;
-    width: 50%;
-    margin-left: auto;
+    align-items: left;
+    font-family: 'Archivo Black', sans-serif;
+    color: #505050;
+}
+
+.title {
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #505050;
+    padding-bottom: 20px;
+}
+
+.contentWords {
+    display: inline-block;
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 64px;
+    font-family: 'Roboto', sans-serif;
+    color: #505050;
 }
 
 .heroImg {
-    width: 200px;
-    padding: 25px;
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
 }
 
-.content {
-    width: 500px;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-}
+.headshot{
+    width: 100%;
+    /* border-radius: 10px; */
+    }
 
 footer {
     width: 100%;
-    background-color: #999999;
-    /* padding: center; */
+    height: 50px;
+    background-color: #BBBBBB;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
-.footer ul {
+footer ul {
     font-family: 'Archivo Black', sans-serif;
     color: #555555;
-    display: inline-block;
-    vertical-align: top;
-    /* padding: center; */
+    display: block;
+    text-align: center;
+    /* padding-top: 10px; */
+}
+
+footer ul li {
+    /* padding-top: 10px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    margin: auto;
 }
